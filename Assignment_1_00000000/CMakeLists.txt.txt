@@ -1,0 +1,8 @@
+# Set the minimum required CMake version
+cmake_minimum_required(VERSION 3.28.0)
+
+# Define the project name
+project(AssemblyProject)
+
+# Add the source file to the project
+add_executable(assemb assemb.c)
